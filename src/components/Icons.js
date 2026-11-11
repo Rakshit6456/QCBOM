@@ -1,0 +1,37 @@
+const Svg = ({ children }) => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false">{children}</svg>
+);
+export const DashIcon = () => <Svg><rect x="3" y="3" width="7" height="9" rx="1" /><rect x="14" y="3" width="7" height="5" rx="1" /><rect x="14" y="12" width="7" height="9" rx="1" /><rect x="3" y="16" width="7" height="5" rx="1" /></Svg>;
+export const KeyIcon = () => <Svg><circle cx="7.5" cy="15.5" r="4.5" /><path d="m10.7 12.3 9.8-9.8M16 7l3 3" /></Svg>;
+export const ChipIcon = () => <Svg><rect x="5" y="5" width="14" height="14" rx="2" /><rect x="9" y="9" width="6" height="6" /><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3" /></Svg>;
+export const GlobeIcon = () => <Svg><circle cx="12" cy="12" r="10" /><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20" /></Svg>;
+export const CloudIcon = () => <Svg><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z" /></Svg>;
+export const CodeIcon = () => <Svg><path d="m16 18 6-6-6-6M8 6l-6 6 6 6" /></Svg>;
+export const BinaryIcon = () => <Svg><rect x="3" y="3" width="18" height="18" rx="2" /><path d="M8 8v3M8 15h0M12 8h0M12 12v4M16 8v3M16 15h0" /></Svg>;
+export const ServerIcon = () => <Svg><rect x="2" y="3" width="20" height="8" rx="2" /><rect x="2" y="13" width="20" height="8" rx="2" /><path d="M6 7h.01M6 17h.01" /></Svg>;
+export const ShieldIcon = () => <Svg><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /><path d="m9 12 2 2 4-4" /></Svg>;
+export const FileIcon = () => <Svg><path d="M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z" /><path d="M14 3v5h5M16 13H8M16 17H8M10 9H8" /></Svg>;
+export const UploadIcon = () => <Svg><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12" /></Svg>;
+export const DownloadIcon = () => <Svg><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" /></Svg>;
+export const SearchIcon = () => <Svg><circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" /></Svg>;
+export const XIcon = () => <Svg><path d="M18 6 6 18M6 6l12 12" /></Svg>;
+export const MoonIcon = () => <Svg><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z" /></Svg>;
+export const SunIcon = () => <Svg><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66 4.93 19.07M19.07 4.93 17.66 6.34" /></Svg>;
+export const BellIcon = () => <Svg><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9" /><path d="M13.73 21a2 2 0 0 1-3.46 0" /></Svg>;
+export const ChevronLeftIcon = () => <Svg><path d="M15 18l-6-6 6-6" /></Svg>;
+export const AlertsIcon = () => <Svg><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" /><path d="M12 9v4M12 17h.01" /></Svg>;
+export const ActivityIcon = () => <Svg><path d="M22 12h-4l-3 9L9 3l-3 9H2" /></Svg>;
+export const LayersIcon = () => <Svg><path d="m12 2 10 5-10 5L2 7l10-5Z" /><path d="m2 12 10 5 10-5M2 17l10 5 10-5" /></Svg>;
+export const LockIcon = () => <Svg><rect x="3" y="11" width="18" height="11" rx="2" /><path d="M7 11V7a5 5 0 0 1 10 0v4" /></Svg>;
+export const ClockIcon = () => <Svg><circle cx="12" cy="12" r="10" /><path d="M12 6v6l4 2" /></Svg>;
+export const ZapIcon = () => <Svg><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z" /></Svg>;
+export const PrintIcon = () => <Svg><path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2" /><rect x="6" y="14" width="12" height="8" /></Svg>;
+export const ListIcon = () => <Svg><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01" /></Svg>;
+export const CheckIcon = () => <Svg><path d="M20 6 9 17l-5-5" /></Svg>;
+export const CheckCircleIcon = () => <Svg><circle cx="12" cy="12" r="10" /><path d="m8 12 3 3 5-6" /></Svg>;
+export const XCircleIcon = () => <Svg><circle cx="12" cy="12" r="10" /><path d="m15 9-6 6M9 9l6 6" /></Svg>;
+export const MinusCircleIcon = () => <Svg><circle cx="12" cy="12" r="10" /><path d="M8 12h8" /></Svg>;
+export const ChevronUpIcon = () => <Svg><path d="m18 15-6-6-6 6" /></Svg>;
+export const ChevronDownIcon = () => <Svg><path d="m6 9 6 6 6-6" /></Svg>;
+export const ShieldAlertIcon = () => <Svg><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /><path d="M12 8v4M12 16h.01" /></Svg>;
+export const ShieldOffIcon = () => <Svg><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" /><path d="m9 9 6 6M15 9l-6 6" /></Svg>;
